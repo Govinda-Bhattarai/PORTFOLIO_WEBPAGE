@@ -1,0 +1,113 @@
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    #navbar a {
+      padding: 10px;
+    }
+  }
+  *{
+    scroll-behavior: smooth;
+    box-sizing:border-box;
+  }
+  body{
+    background-color: rgb(9, 9, 14);
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #navbar{
+   position:fixed;
+   top:0;
+   width:100%;
+   z-index: 100;
+   background-color: cornsilk;
+  }
+  #navbar ul{
+    list-style-type:none;
+    
+  }
+  #navbar li{
+    float:right;
+    padding:10px;
+    margin:0;
+    padding-right:50px;
+    font-size: 1.5em;
+
+  }
+  #navbar a{
+    text-transform: uppercase;
+   
+  }
+  #navbar a:hover{
+    background-color: brown;
+    color: floralwhite;
+  }
+  .placeholder{
+    padding-top:10vw;
+  }
+  #welcome-section{
+    display: block;
+    text-align: center;
+    border: 1px solid blanchedalmond;
+    background-color: rgb(97, 82, 234);
+    font-size: 2em;
+  }
+  #projects{
+   display: block;
+    background-color: rgba(43, 9, 234, 0.285);
+    border: 1px solid black;
+    color: rgb(244, 34, 2);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 5vw;
+    border-radius: 2%;
+    
+  }
+  .project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 0.5rem;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    padding:100px;
+  }
+  .project-grid img{
+    height:300px;
+    width:300px;
+    margin-top: 2rem;
+  }
+  a>p{
+    display: block;
+    color: rgb(244, 244, 45);
+  }
+  a>p:hover{
+    color: black;
+  }
+  .project-tile{
+    display: block;
+    border: 1px solid black;
+    background-color: blueviolet;
+  }
+  #contact{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5vw;
+    padding: 5vw;
+    background-color: rgb(18, 18, 22);
+  }
+  #contact a{
+    padding:0 3vw;
+    color: rgb(234, 12, 12);
+  }
+  #contact a:hover{
+    color:blue
+  }
+  footer{
+    text-align: center;
+    padding-bottom: 2vw;
+  }
